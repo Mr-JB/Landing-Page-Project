@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    /* height: 100vh; */
+    /margin: 0;
+    /* overflow: hidden; */
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0; */
+    /* justify-content: space-between; */
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.HeaderLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderLogo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.HeaderLinks {
+    font-size: 18px;
+    color: #f9faf8;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.Main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.TopSection {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    padding: 100px 200px;
+}
+
+.button {
+    background-color: #3882f6;
+}
+
+.RandomInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RandomItems {
+    display: flex;
+}
+
+.QuoteSection {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.SignUp {
+    display: flex;
+    flex: 1;
+
+    background-color: #3882f6;
+
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+
+}
