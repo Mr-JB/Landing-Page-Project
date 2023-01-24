@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700&display=swap');
 
 body {
-    /* height: 100vh; */
     margin: 0;
-    /* overflow: hidden; */
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    /* padding: 0; */
-    /* justify-content: space-between; */
 }
 
 .header {
@@ -16,6 +12,7 @@ body {
     flex: 1;
     background-color: #1F2937;
     justify-content: space-between;
+    padding: 0 75px 0 200px;
 }
 
 .HeaderLinks {
@@ -27,6 +24,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
+    align-self: center;
 }
 
 .HeaderLinks {
@@ -40,6 +38,7 @@ body {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    width: 400px;
 }
 
 .Main {
@@ -49,11 +48,24 @@ body {
 
 }
 
+.MainPhoto {
+    display: flex;
+    width: 500px;
+}
+
 .TopSection {
     display: flex;
     flex: 1;
     background-color: #1F2937;
-    padding: 100px 200px;
+    padding: 100px 50px 100px 200px;
+    gap: 100px;
+}
+
+.description {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 200;
+    padding: 0 0 10px 0;
 }
 
 button {
@@ -69,13 +81,13 @@ button {
 
 .button1 {
     border: none;
+    padding: 10px 40px;
 }
 
 .RandomInfo {
     display: flex;
     flex-direction: column;
     flex: 1;
-    /* justify-content: space-between; */
     align-items: center;
     padding: 0 0 100px 0;
 }
@@ -85,6 +97,7 @@ button {
     width: 150px;
     color: #696969;
     font-size: 18px;
+    text-align: center;
 }
 
 .RandomTitle {
@@ -104,6 +117,7 @@ button {
 .RandomItems {
     display: flex;
     gap: 40px;
+    justify-items: center;
 }
 
 .QuoteSection {
