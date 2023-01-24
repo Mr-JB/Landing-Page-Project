@@ -94,7 +94,9 @@ button {
 
 .RandomInfo1 {
     flex-wrap: wrap;
-    width: 150px;
+    /* width: 150px; */
+    width: 0px;
+    min-width: 100%;
     color: #696969;
     font-size: 18px;
     text-align: center;
@@ -126,6 +128,7 @@ button {
     flex: 1;
     padding: 150px;
     background-color: #E5E7EB;
+    margin: 100px;
 }
 
 .quote {
